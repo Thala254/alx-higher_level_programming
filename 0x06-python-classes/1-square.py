@@ -7,13 +7,13 @@ class Square:
 
     Attributes:
         __size (int): size of square side
-    """"
+    """
     def __init__(self, size):
-        """constructor for square class
+        """Square constructor
 
         Args:
             size (int): size of square side
 
         Returns: None
-        """"
+        """
         self.__size = size
