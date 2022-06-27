@@ -55,3 +55,7 @@ class Rectangle:
             string += "\n".join("#" * self.__width for
                                 column in range(self.__height))
         return string
+
+    def __repr__(self):
+        """returns printable string representation of the class instance"""
+        return "<{}.{} object at {}>".format(self.__class__.__module__, self.__class__.__name__, hex(id(self)))
