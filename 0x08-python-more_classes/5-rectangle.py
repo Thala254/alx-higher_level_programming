@@ -13,6 +13,7 @@ class Rectangle:
     def width(self):
         """getter for private attribute __width"""
         return self.__width
+
     @width.setter
     def width(self, value):
         """setter for private attribute __width"""
@@ -26,6 +27,7 @@ class Rectangle:
     def height(self):
         """getter for private attribute __height"""
         return self.__height
+
     @height.setter
     def height(self, value):
         """setter for private attribute __height"""
@@ -45,6 +47,7 @@ class Rectangle:
             return 0
         else:
             return 2 * (self.__width + self.__height)
+
     def __str__(self):
         """returns printable string representation of the rectangle"""
         string = ""
