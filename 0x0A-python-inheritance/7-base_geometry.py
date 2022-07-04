@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 "7-base_geometry" module supplies the class BaseGeometry
 """
