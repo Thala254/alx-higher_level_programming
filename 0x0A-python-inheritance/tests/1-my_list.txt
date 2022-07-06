@@ -78,7 +78,7 @@ Check for all negative numbers:
 	 >>> l.print_sorted()
 	 [-40, -30, -20, -15, -10]
 	 >>> print(l)
-     [-10, -15, -20, -30, -40]
+         [-10, -15, -20, -30, -40]
 
 Check for many arguments:
 	 >>> l.print_sorted(1)
