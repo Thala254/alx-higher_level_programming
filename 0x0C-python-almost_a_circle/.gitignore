@@ -3,3 +3,4 @@ models/Rectangle.json
 models/Square.json
 models/Rectangle.csv
 models/Square.csv
+tests/test_models/__pycache__
