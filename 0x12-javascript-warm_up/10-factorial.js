@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const argv = parseInt(process.argv[2]);
+const argv = parseInt(process.argv[2], 10);
 const factorial = n => {
   if (isNaN(n) || n === 0) return 1;
   else return n * factorial(n - 1);
