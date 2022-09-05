@@ -1,7 +1,8 @@
 #!/usr/bin/node
-const argv = parseInt(process.argv[2], 10);
+'use strict'
+const argv = process.argv[2];
 const factorial = n => {
-  if (isNaN(n) || n === 0) return 1;
+  if (isNaN(n) || n === 1) return 1;
   else return n * factorial(n - 1);
 };
-console.log(factorial(argv));
+console.log(factorial(parseInt(argv)));
