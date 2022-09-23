@@ -15,6 +15,8 @@ if __name__ == "__main__":
     commits = r.json()
     try:
         for i in range(10):
-            print(f"{commits[i]['sha']}: {commits[i]['commit']['author']['name']}")
+            print("{}: {}"
+                  .format(commits[i]['sha'],
+                          commits[i]['commit']['author']['name']))
     except IndexError:
         pass
