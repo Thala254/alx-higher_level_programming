@@ -3,7 +3,7 @@
 import urllib.request
 
 if __name__ == "__main__":
-   with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
-       html = res.read()
-   print(f"Body response:\n\t- type: {type(html)}\n\t- content: {html}\n\t\
-         - utf8 content: {html.decode('utf-8')}")
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
+        html = res.read()
+    print(f"Body response:\n\t- type: {type(html)}\n\t- content: {html}\n\t\
+          - utf8 content: {html.decode('utf-8')}")
