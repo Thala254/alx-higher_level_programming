@@ -1,0 +1,2152 @@
+[
+  {
+    "sha": "f785ad786ae49dd6f7a2f1d77c44ea17008c6656",
+    "commit": {
+      "author": {
+        "name": "Jon Moss",
+        "email": "me@jonathanmoss.me",
+        "date": "2017-04-08T21:10:42Z"
+      },
+      "committer": {
+        "name": "Jon Moss",
+        "email": "me@jonathanmoss.me",
+        "date": "2017-04-08T21:10:42Z"
+      },
+      "message": "Add scaffolding for different sections in 5.1 release notes\n\n[ci skip]",
+      "tree": {
+        "sha": "15d90bdab27b06a9f45a9158c46cce4100c733dc",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/15d90bdab27b06a9f45a9158c46cce4100c733dc"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/f785ad786ae49dd6f7a2f1d77c44ea17008c6656",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/f785ad786ae49dd6f7a2f1d77c44ea17008c6656",
+    "html_url": "https://github.com/rails/rails/commit/f785ad786ae49dd6f7a2f1d77c44ea17008c6656",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/f785ad786ae49dd6f7a2f1d77c44ea17008c6656/comments",
+    "author": {
+      "login": "maclover7",
+      "id": 3020626,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3020626?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maclover7",
+      "html_url": "https://github.com/maclover7",
+      "followers_url": "https://api.github.com/users/maclover7/followers",
+      "following_url": "https://api.github.com/users/maclover7/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maclover7/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maclover7/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maclover7/subscriptions",
+      "organizations_url": "https://api.github.com/users/maclover7/orgs",
+      "repos_url": "https://api.github.com/users/maclover7/repos",
+      "events_url": "https://api.github.com/users/maclover7/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maclover7/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "maclover7",
+      "id": 3020626,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3020626?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maclover7",
+      "html_url": "https://github.com/maclover7",
+      "followers_url": "https://api.github.com/users/maclover7/followers",
+      "following_url": "https://api.github.com/users/maclover7/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maclover7/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maclover7/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maclover7/subscriptions",
+      "organizations_url": "https://api.github.com/users/maclover7/orgs",
+      "repos_url": "https://api.github.com/users/maclover7/repos",
+      "events_url": "https://api.github.com/users/maclover7/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maclover7/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb13c37fefdc8b5699918b38eff84751c2899ad5",
+        "url": "https://api.github.com/repos/rails/rails/commits/bb13c37fefdc8b5699918b38eff84751c2899ad5",
+        "html_url": "https://github.com/rails/rails/commit/bb13c37fefdc8b5699918b38eff84751c2899ad5"
+      }
+    ]
+  },
+  {
+    "sha": "bb13c37fefdc8b5699918b38eff84751c2899ad5",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-08T18:40:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-08T18:40:37Z"
+      },
+      "message": "Merge pull request #28678 from hedgesky/use_formatted_number_as_schema_version\n\nuse formatted number as schema version",
+      "tree": {
+        "sha": "91ee33fece83403484db8bc06065380ceb2c8874",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/91ee33fece83403484db8bc06065380ceb2c8874"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/bb13c37fefdc8b5699918b38eff84751c2899ad5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/bb13c37fefdc8b5699918b38eff84751c2899ad5",
+    "html_url": "https://github.com/rails/rails/commit/bb13c37fefdc8b5699918b38eff84751c2899ad5",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/bb13c37fefdc8b5699918b38eff84751c2899ad5/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5d880866917724217eae9785a3ccd3f806c5aaf",
+        "url": "https://api.github.com/repos/rails/rails/commits/f5d880866917724217eae9785a3ccd3f806c5aaf",
+        "html_url": "https://github.com/rails/rails/commit/f5d880866917724217eae9785a3ccd3f806c5aaf"
+      },
+      {
+        "sha": "826e49cfbe9589e600e652c31eb62954dcc86061",
+        "url": "https://api.github.com/repos/rails/rails/commits/826e49cfbe9589e600e652c31eb62954dcc86061",
+        "html_url": "https://github.com/rails/rails/commit/826e49cfbe9589e600e652c31eb62954dcc86061"
+      }
+    ]
+  },
+  {
+    "sha": "f5d880866917724217eae9785a3ccd3f806c5aaf",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-08T18:11:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-08T18:11:05Z"
+      },
+      "message": "Merge pull request #28705 from kamipo/extract_construct_relation_for_exists\n\nExtract `construct_relation_for_exists` in `FinderMethods`",
+      "tree": {
+        "sha": "db3836d16e16239db8dccafd7428c398eb2c1fe7",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/db3836d16e16239db8dccafd7428c398eb2c1fe7"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/f5d880866917724217eae9785a3ccd3f806c5aaf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/f5d880866917724217eae9785a3ccd3f806c5aaf",
+    "html_url": "https://github.com/rails/rails/commit/f5d880866917724217eae9785a3ccd3f806c5aaf",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/f5d880866917724217eae9785a3ccd3f806c5aaf/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "24eb450d7599bab1f5863e0578a21c65ca42a915",
+        "url": "https://api.github.com/repos/rails/rails/commits/24eb450d7599bab1f5863e0578a21c65ca42a915",
+        "html_url": "https://github.com/rails/rails/commit/24eb450d7599bab1f5863e0578a21c65ca42a915"
+      },
+      {
+        "sha": "0da696a5e3cee87a996a020b664caa1eabd66220",
+        "url": "https://api.github.com/repos/rails/rails/commits/0da696a5e3cee87a996a020b664caa1eabd66220",
+        "html_url": "https://github.com/rails/rails/commit/0da696a5e3cee87a996a020b664caa1eabd66220"
+      }
+    ]
+  },
+  {
+    "sha": "0da696a5e3cee87a996a020b664caa1eabd66220",
+    "commit": {
+      "author": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-08T13:42:31Z"
+      },
+      "committer": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-08T17:33:47Z"
+      },
+      "message": "Extract `construct_relation_for_exists` in `FinderMethods`\n\nTo ease to customize a relation for `exists?`.",
+      "tree": {
+        "sha": "61433f73a032c04ba559bbd5b4baa22741480d5b",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/61433f73a032c04ba559bbd5b4baa22741480d5b"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/0da696a5e3cee87a996a020b664caa1eabd66220",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/0da696a5e3cee87a996a020b664caa1eabd66220",
+    "html_url": "https://github.com/rails/rails/commit/0da696a5e3cee87a996a020b664caa1eabd66220",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/0da696a5e3cee87a996a020b664caa1eabd66220/comments",
+    "author": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb",
+        "url": "https://api.github.com/repos/rails/rails/commits/a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb",
+        "html_url": "https://github.com/rails/rails/commit/a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb"
+      }
+    ]
+  },
+  {
+    "sha": "24eb450d7599bab1f5863e0578a21c65ca42a915",
+    "commit": {
+      "author": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-08T15:06:45Z"
+      },
+      "committer": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-08T15:25:13Z"
+      },
+      "message": "Drop the \"Sanity Check\" contributing step",
+      "tree": {
+        "sha": "f01fc55f932b4c006946463edd58e16d04ade735",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/f01fc55f932b4c006946463edd58e16d04ade735"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/24eb450d7599bab1f5863e0578a21c65ca42a915",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/24eb450d7599bab1f5863e0578a21c65ca42a915",
+    "html_url": "https://github.com/rails/rails/commit/24eb450d7599bab1f5863e0578a21c65ca42a915",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/24eb450d7599bab1f5863e0578a21c65ca42a915/comments",
+    "author": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "668f8691f1017042e238497d1a5b7b8bf1c43819",
+        "url": "https://api.github.com/repos/rails/rails/commits/668f8691f1017042e238497d1a5b7b8bf1c43819",
+        "html_url": "https://github.com/rails/rails/commit/668f8691f1017042e238497d1a5b7b8bf1c43819"
+      }
+    ]
+  },
+  {
+    "sha": "668f8691f1017042e238497d1a5b7b8bf1c43819",
+    "commit": {
+      "author": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-08T15:01:58Z"
+      },
+      "committer": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-08T15:25:13Z"
+      },
+      "message": "Remove mentions and instructions for docrails\n\nIt's been retired; all contributions now come in via PRs.",
+      "tree": {
+        "sha": "be1b0b8dea784a9aa74d22496f8156057335677f",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/be1b0b8dea784a9aa74d22496f8156057335677f"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/668f8691f1017042e238497d1a5b7b8bf1c43819",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/668f8691f1017042e238497d1a5b7b8bf1c43819",
+    "html_url": "https://github.com/rails/rails/commit/668f8691f1017042e238497d1a5b7b8bf1c43819",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/668f8691f1017042e238497d1a5b7b8bf1c43819/comments",
+    "author": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28079868d0e70bdac80c76cf806afd517edfe1e7",
+        "url": "https://api.github.com/repos/rails/rails/commits/28079868d0e70bdac80c76cf806afd517edfe1e7",
+        "html_url": "https://github.com/rails/rails/commit/28079868d0e70bdac80c76cf806afd517edfe1e7"
+      }
+    ]
+  },
+  {
+    "sha": "a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb",
+    "commit": {
+      "author": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-08T13:29:19Z"
+      },
+      "committer": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-08T13:35:25Z"
+      },
+      "message": "More exercise `exists?` tests",
+      "tree": {
+        "sha": "b6bc9fb50c5827f2a4d8f1f611cb40fde2c6d0fe",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/b6bc9fb50c5827f2a4d8f1f611cb40fde2c6d0fe"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb",
+    "html_url": "https://github.com/rails/rails/commit/a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb/comments",
+    "author": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28079868d0e70bdac80c76cf806afd517edfe1e7",
+        "url": "https://api.github.com/repos/rails/rails/commits/28079868d0e70bdac80c76cf806afd517edfe1e7",
+        "html_url": "https://github.com/rails/rails/commit/28079868d0e70bdac80c76cf806afd517edfe1e7"
+      }
+    ]
+  },
+  {
+    "sha": "28079868d0e70bdac80c76cf806afd517edfe1e7",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T18:16:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-07T18:16:30Z"
+      },
+      "message": "Merge pull request #28692 from kmcphillips/master\n\nCalling fixture accessor method with no arguments returns all fixtures rather than empty array",
+      "tree": {
+        "sha": "bb431934913806c51424517721fbf1e157e79359",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/bb431934913806c51424517721fbf1e157e79359"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/28079868d0e70bdac80c76cf806afd517edfe1e7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/28079868d0e70bdac80c76cf806afd517edfe1e7",
+    "html_url": "https://github.com/rails/rails/commit/28079868d0e70bdac80c76cf806afd517edfe1e7",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/28079868d0e70bdac80c76cf806afd517edfe1e7/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8f0d8551893789f26e5d6b82ccef00779296818f",
+        "url": "https://api.github.com/repos/rails/rails/commits/8f0d8551893789f26e5d6b82ccef00779296818f",
+        "html_url": "https://github.com/rails/rails/commit/8f0d8551893789f26e5d6b82ccef00779296818f"
+      },
+      {
+        "sha": "06f45435da941d713afefd3140421d1ced7abbdc",
+        "url": "https://api.github.com/repos/rails/rails/commits/06f45435da941d713afefd3140421d1ced7abbdc",
+        "html_url": "https://github.com/rails/rails/commit/06f45435da941d713afefd3140421d1ced7abbdc"
+      }
+    ]
+  },
+  {
+    "sha": "8f0d8551893789f26e5d6b82ccef00779296818f",
+    "commit": {
+      "author": {
+        "name": "Rafael MendonÃ§a FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T17:55:54Z"
+      },
+      "committer": {
+        "name": "Rafael MendonÃ§a FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T17:55:54Z"
+      },
+      "message": "Spaces",
+      "tree": {
+        "sha": "3082aa68d5826aa58d18c2c98ea041b11c3f57a5",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/3082aa68d5826aa58d18c2c98ea041b11c3f57a5"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/8f0d8551893789f26e5d6b82ccef00779296818f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/8f0d8551893789f26e5d6b82ccef00779296818f",
+    "html_url": "https://github.com/rails/rails/commit/8f0d8551893789f26e5d6b82ccef00779296818f",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/8f0d8551893789f26e5d6b82ccef00779296818f/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "866fc6a4e24c3807637be0ce34aec06da8025618",
+        "url": "https://api.github.com/repos/rails/rails/commits/866fc6a4e24c3807637be0ce34aec06da8025618",
+        "html_url": "https://github.com/rails/rails/commit/866fc6a4e24c3807637be0ce34aec06da8025618"
+      }
+    ]
+  },
+  {
+    "sha": "866fc6a4e24c3807637be0ce34aec06da8025618",
+    "commit": {
+      "author": {
+        "name": "Rafael MendonÃ§a FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T17:54:30Z"
+      },
+      "committer": {
+        "name": "Rafael MendonÃ§a FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T17:54:30Z"
+      },
+      "message": "More :scissors:",
+      "tree": {
+        "sha": "4a4c5324e3953398690c18d1a5a9bfe21e75c635",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/4a4c5324e3953398690c18d1a5a9bfe21e75c635"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/866fc6a4e24c3807637be0ce34aec06da8025618",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/866fc6a4e24c3807637be0ce34aec06da8025618",
+    "html_url": "https://github.com/rails/rails/commit/866fc6a4e24c3807637be0ce34aec06da8025618",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/866fc6a4e24c3807637be0ce34aec06da8025618/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c597c3eb934454c1f4459c24b9462bb962403bb9",
+        "url": "https://api.github.com/repos/rails/rails/commits/c597c3eb934454c1f4459c24b9462bb962403bb9",
+        "html_url": "https://github.com/rails/rails/commit/c597c3eb934454c1f4459c24b9462bb962403bb9"
+      }
+    ]
+  },
+  {
+    "sha": "c597c3eb934454c1f4459c24b9462bb962403bb9",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T17:51:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-07T17:51:30Z"
+      },
+      "message": ":scissors:",
+      "tree": {
+        "sha": "6519f3f2122fcac6f2715122182420cf560585f3",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/6519f3f2122fcac6f2715122182420cf560585f3"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/c597c3eb934454c1f4459c24b9462bb962403bb9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/c597c3eb934454c1f4459c24b9462bb962403bb9",
+    "html_url": "https://github.com/rails/rails/commit/c597c3eb934454c1f4459c24b9462bb962403bb9",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/c597c3eb934454c1f4459c24b9462bb962403bb9/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0b4ff7eacfeb36fca86c597da7c3ace059f8517a",
+        "url": "https://api.github.com/repos/rails/rails/commits/0b4ff7eacfeb36fca86c597da7c3ace059f8517a",
+        "html_url": "https://github.com/rails/rails/commit/0b4ff7eacfeb36fca86c597da7c3ace059f8517a"
+      }
+    ]
+  },
+  {
+    "sha": "0b4ff7eacfeb36fca86c597da7c3ace059f8517a",
+    "commit": {
+      "author": {
+        "name": "claudiob",
+        "email": "claudiob@inventati.org",
+        "date": "2017-04-07T16:18:19Z"
+      },
+      "committer": {
+        "name": "claudiob",
+        "email": "claudiob@inventati.org",
+        "date": "2017-04-07T16:23:18Z"
+      },
+      "message": "Fix Guides to include #23138 [ci skip]\n\nA long-standing bug has been fixed in Rails 5.1 by @pixeltrix\nSee https://github.com/rails/rails/blame/5-1-stable/actionpack/CHANGELOG.md#L52-L64\n\nThis PR updates the guides accordingly.\n\nBefore:\n<img width=\"799\" alt=\"before\" src=\"https://cloud.githubusercontent.com/assets/10076/24809105/4ec7066c-1b73-11e7-98c6-c709c3465306.png\">\n\nAfter:\n<img width=\"799\" alt=\"after\" src=\"https://cloud.githubusercontent.com/assets/10076/24809109/50b21188-1b73-11e7-8a1a-32c3d0ed512a.png\">",
+      "tree": {
+        "sha": "02854cd124aff1416400c868462f06e3b543564b",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/02854cd124aff1416400c868462f06e3b543564b"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/0b4ff7eacfeb36fca86c597da7c3ace059f8517a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/0b4ff7eacfeb36fca86c597da7c3ace059f8517a",
+    "html_url": "https://github.com/rails/rails/commit/0b4ff7eacfeb36fca86c597da7c3ace059f8517a",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/0b4ff7eacfeb36fca86c597da7c3ace059f8517a/comments",
+    "author": {
+      "login": "claudiob",
+      "id": 10076,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10076?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claudiob",
+      "html_url": "https://github.com/claudiob",
+      "followers_url": "https://api.github.com/users/claudiob/followers",
+      "following_url": "https://api.github.com/users/claudiob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claudiob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claudiob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claudiob/subscriptions",
+      "organizations_url": "https://api.github.com/users/claudiob/orgs",
+      "repos_url": "https://api.github.com/users/claudiob/repos",
+      "events_url": "https://api.github.com/users/claudiob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claudiob/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "claudiob",
+      "id": 10076,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10076?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claudiob",
+      "html_url": "https://github.com/claudiob",
+      "followers_url": "https://api.github.com/users/claudiob/followers",
+      "following_url": "https://api.github.com/users/claudiob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claudiob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claudiob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claudiob/subscriptions",
+      "organizations_url": "https://api.github.com/users/claudiob/orgs",
+      "repos_url": "https://api.github.com/users/claudiob/repos",
+      "events_url": "https://api.github.com/users/claudiob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claudiob/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e88e35804a017b10d93e7e9c6b5708a2273047df",
+        "url": "https://api.github.com/repos/rails/rails/commits/e88e35804a017b10d93e7e9c6b5708a2273047df",
+        "html_url": "https://github.com/rails/rails/commit/e88e35804a017b10d93e7e9c6b5708a2273047df"
+      }
+    ]
+  },
+  {
+    "sha": "06f45435da941d713afefd3140421d1ced7abbdc",
+    "commit": {
+      "author": {
+        "name": "Kevin McPhillips",
+        "email": "github@kevinmcphillips.ca",
+        "date": "2017-04-07T01:43:58Z"
+      },
+      "committer": {
+        "name": "Kevin McPhillips",
+        "email": "github@kevinmcphillips.ca",
+        "date": "2017-04-07T14:06:40Z"
+      },
+      "message": "Passing in no arguments to the dynamic fixture accessor method returns all fixtures, not an empty array.",
+      "tree": {
+        "sha": "de536df446cc9c4b2d13d7abb106691e23fdf96e",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/de536df446cc9c4b2d13d7abb106691e23fdf96e"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/06f45435da941d713afefd3140421d1ced7abbdc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/06f45435da941d713afefd3140421d1ced7abbdc",
+    "html_url": "https://github.com/rails/rails/commit/06f45435da941d713afefd3140421d1ced7abbdc",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/06f45435da941d713afefd3140421d1ced7abbdc/comments",
+    "author": {
+      "login": "kmcphillips",
+      "id": 84159,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/84159?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kmcphillips",
+      "html_url": "https://github.com/kmcphillips",
+      "followers_url": "https://api.github.com/users/kmcphillips/followers",
+      "following_url": "https://api.github.com/users/kmcphillips/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kmcphillips/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kmcphillips/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kmcphillips/subscriptions",
+      "organizations_url": "https://api.github.com/users/kmcphillips/orgs",
+      "repos_url": "https://api.github.com/users/kmcphillips/repos",
+      "events_url": "https://api.github.com/users/kmcphillips/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kmcphillips/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kmcphillips",
+      "id": 84159,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/84159?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kmcphillips",
+      "html_url": "https://github.com/kmcphillips",
+      "followers_url": "https://api.github.com/users/kmcphillips/followers",
+      "following_url": "https://api.github.com/users/kmcphillips/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kmcphillips/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kmcphillips/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kmcphillips/subscriptions",
+      "organizations_url": "https://api.github.com/users/kmcphillips/orgs",
+      "repos_url": "https://api.github.com/users/kmcphillips/repos",
+      "events_url": "https://api.github.com/users/kmcphillips/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kmcphillips/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e88e35804a017b10d93e7e9c6b5708a2273047df",
+        "url": "https://api.github.com/repos/rails/rails/commits/e88e35804a017b10d93e7e9c6b5708a2273047df",
+        "html_url": "https://github.com/rails/rails/commit/e88e35804a017b10d93e7e9c6b5708a2273047df"
+      }
+    ]
+  },
+  {
+    "sha": "e88e35804a017b10d93e7e9c6b5708a2273047df",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T06:05:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-07T06:05:36Z"
+      },
+      "message": "Merge pull request #28670 from aledalgrande/activerecord-docs-fix\n\nFix edge guides for Active Record callbacks",
+      "tree": {
+        "sha": "0926c5ecdd67387027a035547766fb9da5fc85d1",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/0926c5ecdd67387027a035547766fb9da5fc85d1"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/e88e35804a017b10d93e7e9c6b5708a2273047df",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/e88e35804a017b10d93e7e9c6b5708a2273047df",
+    "html_url": "https://github.com/rails/rails/commit/e88e35804a017b10d93e7e9c6b5708a2273047df",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/e88e35804a017b10d93e7e9c6b5708a2273047df/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8547d9fe266f04e47b1a831d6f5836b354c9be02",
+        "url": "https://api.github.com/repos/rails/rails/commits/8547d9fe266f04e47b1a831d6f5836b354c9be02",
+        "html_url": "https://github.com/rails/rails/commit/8547d9fe266f04e47b1a831d6f5836b354c9be02"
+      },
+      {
+        "sha": "3820abd36d22ac133b4146c8d59c1dda847e4f91",
+        "url": "https://api.github.com/repos/rails/rails/commits/3820abd36d22ac133b4146c8d59c1dda847e4f91",
+        "html_url": "https://github.com/rails/rails/commit/3820abd36d22ac133b4146c8d59c1dda847e4f91"
+      }
+    ]
+  },
+  {
+    "sha": "8547d9fe266f04e47b1a831d6f5836b354c9be02",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-07T06:03:24Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-07T06:03:24Z"
+      },
+      "message": "Merge pull request #28632 from kamipo/fix_warning_extra_states_are_no_longer_copied\n\nFix `warning: extra states are no longer copied`",
+      "tree": {
+        "sha": "0fd72cff54086dfceffe2032cadfbb8f1dce9d7c",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/0fd72cff54086dfceffe2032cadfbb8f1dce9d7c"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/8547d9fe266f04e47b1a831d6f5836b354c9be02",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/8547d9fe266f04e47b1a831d6f5836b354c9be02",
+    "html_url": "https://github.com/rails/rails/commit/8547d9fe266f04e47b1a831d6f5836b354c9be02",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/8547d9fe266f04e47b1a831d6f5836b354c9be02/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5f08a230340934da2899cb5e2043952aa6bc59ae",
+        "url": "https://api.github.com/repos/rails/rails/commits/5f08a230340934da2899cb5e2043952aa6bc59ae",
+        "html_url": "https://github.com/rails/rails/commit/5f08a230340934da2899cb5e2043952aa6bc59ae"
+      },
+      {
+        "sha": "23547c8c208d5405e04056ae8bfd726961983e54",
+        "url": "https://api.github.com/repos/rails/rails/commits/23547c8c208d5405e04056ae8bfd726961983e54",
+        "html_url": "https://github.com/rails/rails/commit/23547c8c208d5405e04056ae8bfd726961983e54"
+      }
+    ]
+  },
+  {
+    "sha": "5f08a230340934da2899cb5e2043952aa6bc59ae",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-06T23:55:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-06T23:55:06Z"
+      },
+      "message": "Merge pull request #28687 from kamipo/fix_warning_already_initialized_constant\n\nFix `warning: already initialized constant HashWithIndifferentAccessTest::HashWithIndifferentAccess`",
+      "tree": {
+        "sha": "dcc29c0d4f92d70413b135c292d0a4489d7ccfdd",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/dcc29c0d4f92d70413b135c292d0a4489d7ccfdd"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/5f08a230340934da2899cb5e2043952aa6bc59ae",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/5f08a230340934da2899cb5e2043952aa6bc59ae",
+    "html_url": "https://github.com/rails/rails/commit/5f08a230340934da2899cb5e2043952aa6bc59ae",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/5f08a230340934da2899cb5e2043952aa6bc59ae/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0006fb78aa09f247f7f9c06b09ece3d2af207395",
+        "url": "https://api.github.com/repos/rails/rails/commits/0006fb78aa09f247f7f9c06b09ece3d2af207395",
+        "html_url": "https://github.com/rails/rails/commit/0006fb78aa09f247f7f9c06b09ece3d2af207395"
+      },
+      {
+        "sha": "49d02ac35870f8e9b84dfcf0d81991cb91399a07",
+        "url": "https://api.github.com/repos/rails/rails/commits/49d02ac35870f8e9b84dfcf0d81991cb91399a07",
+        "html_url": "https://github.com/rails/rails/commit/49d02ac35870f8e9b84dfcf0d81991cb91399a07"
+      }
+    ]
+  },
+  {
+    "sha": "0006fb78aa09f247f7f9c06b09ece3d2af207395",
+    "commit": {
+      "author": {
+        "name": "Rafael FranÃ§a",
+        "email": "rafaelmfranca@gmail.com",
+        "date": "2017-04-06T23:54:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-06T23:54:43Z"
+      },
+      "message": "Merge pull request #28688 from kamipo/remove_duplicated_test_prefix\n\nRemove duplicated \"test\" prefix",
+      "tree": {
+        "sha": "6a885c957862f1b4367eb1a3c8541e44058f4e1e",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/6a885c957862f1b4367eb1a3c8541e44058f4e1e"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/0006fb78aa09f247f7f9c06b09ece3d2af207395",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/0006fb78aa09f247f7f9c06b09ece3d2af207395",
+    "html_url": "https://github.com/rails/rails/commit/0006fb78aa09f247f7f9c06b09ece3d2af207395",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/0006fb78aa09f247f7f9c06b09ece3d2af207395/comments",
+    "author": {
+      "login": "rafaelfranca",
+      "id": 47848,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47848?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafaelfranca",
+      "html_url": "https://github.com/rafaelfranca",
+      "followers_url": "https://api.github.com/users/rafaelfranca/followers",
+      "following_url": "https://api.github.com/users/rafaelfranca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafaelfranca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafaelfranca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafaelfranca/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafaelfranca/orgs",
+      "repos_url": "https://api.github.com/users/rafaelfranca/repos",
+      "events_url": "https://api.github.com/users/rafaelfranca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafaelfranca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a500b4796f86b05b3fece414f090a496d3cb4298",
+        "url": "https://api.github.com/repos/rails/rails/commits/a500b4796f86b05b3fece414f090a496d3cb4298",
+        "html_url": "https://github.com/rails/rails/commit/a500b4796f86b05b3fece414f090a496d3cb4298"
+      },
+      {
+        "sha": "a31584692304cebd06f6530ce0347ef8075e46e1",
+        "url": "https://api.github.com/repos/rails/rails/commits/a31584692304cebd06f6530ce0347ef8075e46e1",
+        "html_url": "https://github.com/rails/rails/commit/a31584692304cebd06f6530ce0347ef8075e46e1"
+      }
+    ]
+  },
+  {
+    "sha": "a31584692304cebd06f6530ce0347ef8075e46e1",
+    "commit": {
+      "author": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-06T23:40:52Z"
+      },
+      "committer": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-06T23:40:52Z"
+      },
+      "message": "Remove duplicated \"test\" prefix",
+      "tree": {
+        "sha": "6a885c957862f1b4367eb1a3c8541e44058f4e1e",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/6a885c957862f1b4367eb1a3c8541e44058f4e1e"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/a31584692304cebd06f6530ce0347ef8075e46e1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/a31584692304cebd06f6530ce0347ef8075e46e1",
+    "html_url": "https://github.com/rails/rails/commit/a31584692304cebd06f6530ce0347ef8075e46e1",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/a31584692304cebd06f6530ce0347ef8075e46e1/comments",
+    "author": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a500b4796f86b05b3fece414f090a496d3cb4298",
+        "url": "https://api.github.com/repos/rails/rails/commits/a500b4796f86b05b3fece414f090a496d3cb4298",
+        "html_url": "https://github.com/rails/rails/commit/a500b4796f86b05b3fece414f090a496d3cb4298"
+      }
+    ]
+  },
+  {
+    "sha": "49d02ac35870f8e9b84dfcf0d81991cb91399a07",
+    "commit": {
+      "author": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-06T23:18:11Z"
+      },
+      "committer": {
+        "name": "Ryuta Kamizono",
+        "email": "kamipo@gmail.com",
+        "date": "2017-04-06T23:18:11Z"
+      },
+      "message": "Fix `warning: already initialized constant HashWithIndifferentAccessTest::HashWithIndifferentAccess`\n\nCaused since #28607.",
+      "tree": {
+        "sha": "d3556d0761de8bc24e2c77729641ce627c15af56",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/d3556d0761de8bc24e2c77729641ce627c15af56"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/49d02ac35870f8e9b84dfcf0d81991cb91399a07",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/49d02ac35870f8e9b84dfcf0d81991cb91399a07",
+    "html_url": "https://github.com/rails/rails/commit/49d02ac35870f8e9b84dfcf0d81991cb91399a07",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/49d02ac35870f8e9b84dfcf0d81991cb91399a07/comments",
+    "author": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "kamipo",
+      "id": 12642,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12642?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kamipo",
+      "html_url": "https://github.com/kamipo",
+      "followers_url": "https://api.github.com/users/kamipo/followers",
+      "following_url": "https://api.github.com/users/kamipo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kamipo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kamipo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kamipo/subscriptions",
+      "organizations_url": "https://api.github.com/users/kamipo/orgs",
+      "repos_url": "https://api.github.com/users/kamipo/repos",
+      "events_url": "https://api.github.com/users/kamipo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kamipo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8c33349bfabca28996ac74d344d69c7aaffec50",
+        "url": "https://api.github.com/repos/rails/rails/commits/e8c33349bfabca28996ac74d344d69c7aaffec50",
+        "html_url": "https://github.com/rails/rails/commit/e8c33349bfabca28996ac74d344d69c7aaffec50"
+      }
+    ]
+  },
+  {
+    "sha": "a500b4796f86b05b3fece414f090a496d3cb4298",
+    "commit": {
+      "author": {
+        "name": "Jon Leighton",
+        "email": "j@jonathanleighton.com",
+        "date": "2017-04-06T15:03:35Z"
+      },
+      "committer": {
+        "name": "Jon Leighton",
+        "email": "j@jonathanleighton.com",
+        "date": "2017-04-06T15:03:35Z"
+      },
+      "message": "Improve logging when Origin header doesn't match\n\nI came up against this while dealing with a misconfigured server. The\nbrowser was setting the Origin header to \"https://example.com\", but the\nRails app returned \"http://example.com\" from request.base_url (because\nit was failing to detect that HTTPS was used).\n\nThis caused verify_authenticity_token to fail, but the message in the\nlog was \"Can't verify CSRF token\", which is confusing because the\nfailure had nothing to do with the CSRF token sent in the request. This\nmade it very hard to identify the issue, so hopefully this will make it\nmore obvious for the next person.",
+      "tree": {
+        "sha": "de4d65fcb3dd0aa3da662c36e67122dcbe2d94ef",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/de4d65fcb3dd0aa3da662c36e67122dcbe2d94ef"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/a500b4796f86b05b3fece414f090a496d3cb4298",
+      "comment_count": 3
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/a500b4796f86b05b3fece414f090a496d3cb4298",
+    "html_url": "https://github.com/rails/rails/commit/a500b4796f86b05b3fece414f090a496d3cb4298",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/a500b4796f86b05b3fece414f090a496d3cb4298/comments",
+    "author": {
+      "login": "jonleighton",
+      "id": 1979,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1979?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonleighton",
+      "html_url": "https://github.com/jonleighton",
+      "followers_url": "https://api.github.com/users/jonleighton/followers",
+      "following_url": "https://api.github.com/users/jonleighton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonleighton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonleighton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonleighton/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonleighton/orgs",
+      "repos_url": "https://api.github.com/users/jonleighton/repos",
+      "events_url": "https://api.github.com/users/jonleighton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonleighton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jonleighton",
+      "id": 1979,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1979?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonleighton",
+      "html_url": "https://github.com/jonleighton",
+      "followers_url": "https://api.github.com/users/jonleighton/followers",
+      "following_url": "https://api.github.com/users/jonleighton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonleighton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonleighton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonleighton/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonleighton/orgs",
+      "repos_url": "https://api.github.com/users/jonleighton/repos",
+      "events_url": "https://api.github.com/users/jonleighton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonleighton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe",
+        "url": "https://api.github.com/repos/rails/rails/commits/fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe",
+        "html_url": "https://github.com/rails/rails/commit/fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe"
+      }
+    ]
+  },
+  {
+    "sha": "fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe",
+    "commit": {
+      "author": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-05T21:43:16Z"
+      },
+      "committer": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-05T21:49:58Z"
+      },
+      "message": "Work around all the things",
+      "tree": {
+        "sha": "5514e92d5911487b7dfa9fb755b7d3168e10f3a6",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/5514e92d5911487b7dfa9fb755b7d3168e10f3a6"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe",
+    "html_url": "https://github.com/rails/rails/commit/fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/fd097cff79c62fedabffae4e9f0fb53c2ec8bcbe/comments",
+    "author": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+        "url": "https://api.github.com/repos/rails/rails/commits/70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+        "html_url": "https://github.com/rails/rails/commit/70514d3bd12259c3f4cabc7589865a3b5a54ed28"
+      }
+    ]
+  },
+  {
+    "sha": "826e49cfbe9589e600e652c31eb62954dcc86061",
+    "commit": {
+      "author": {
+        "name": "Anton Chuchkalov",
+        "email": "a2new@yandex.ru",
+        "date": "2017-04-05T19:19:05Z"
+      },
+      "committer": {
+        "name": "Anton Chuchkalov",
+        "email": "a2new@yandex.ru",
+        "date": "2017-04-05T19:19:05Z"
+      },
+      "message": "use formatted number as schema version",
+      "tree": {
+        "sha": "0fa26a33ca4d9771cf30c0f338cd4589bb6cceb0",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/0fa26a33ca4d9771cf30c0f338cd4589bb6cceb0"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/826e49cfbe9589e600e652c31eb62954dcc86061",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/826e49cfbe9589e600e652c31eb62954dcc86061",
+    "html_url": "https://github.com/rails/rails/commit/826e49cfbe9589e600e652c31eb62954dcc86061",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/826e49cfbe9589e600e652c31eb62954dcc86061/comments",
+    "author": {
+      "login": "hedgesky",
+      "id": 3628124,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3628124?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hedgesky",
+      "html_url": "https://github.com/hedgesky",
+      "followers_url": "https://api.github.com/users/hedgesky/followers",
+      "following_url": "https://api.github.com/users/hedgesky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hedgesky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hedgesky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hedgesky/subscriptions",
+      "organizations_url": "https://api.github.com/users/hedgesky/orgs",
+      "repos_url": "https://api.github.com/users/hedgesky/repos",
+      "events_url": "https://api.github.com/users/hedgesky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hedgesky/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "hedgesky",
+      "id": 3628124,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3628124?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hedgesky",
+      "html_url": "https://github.com/hedgesky",
+      "followers_url": "https://api.github.com/users/hedgesky/followers",
+      "following_url": "https://api.github.com/users/hedgesky/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hedgesky/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hedgesky/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hedgesky/subscriptions",
+      "organizations_url": "https://api.github.com/users/hedgesky/orgs",
+      "repos_url": "https://api.github.com/users/hedgesky/repos",
+      "events_url": "https://api.github.com/users/hedgesky/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hedgesky/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+        "url": "https://api.github.com/repos/rails/rails/commits/70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+        "html_url": "https://github.com/rails/rails/commit/70514d3bd12259c3f4cabc7589865a3b5a54ed28"
+      }
+    ]
+  },
+  {
+    "sha": "70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+    "commit": {
+      "author": {
+        "name": "Andrew White",
+        "email": "pixeltrix@users.noreply.github.com",
+        "date": "2017-04-05T14:07:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-05T14:07:30Z"
+      },
+      "message": "Merge pull request #28673 from koic/oracle_does_not_support_index_comment\n\nIgnore AR tests of index comment when using Oracle",
+      "tree": {
+        "sha": "782be2ef947998542e4604d6b97c607da4e2527b",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/782be2ef947998542e4604d6b97c607da4e2527b"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+    "html_url": "https://github.com/rails/rails/commit/70514d3bd12259c3f4cabc7589865a3b5a54ed28",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/70514d3bd12259c3f4cabc7589865a3b5a54ed28/comments",
+    "author": {
+      "login": "pixeltrix",
+      "id": 6321,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6321?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pixeltrix",
+      "html_url": "https://github.com/pixeltrix",
+      "followers_url": "https://api.github.com/users/pixeltrix/followers",
+      "following_url": "https://api.github.com/users/pixeltrix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pixeltrix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pixeltrix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pixeltrix/subscriptions",
+      "organizations_url": "https://api.github.com/users/pixeltrix/orgs",
+      "repos_url": "https://api.github.com/users/pixeltrix/repos",
+      "events_url": "https://api.github.com/users/pixeltrix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pixeltrix/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed617a324adb075db7b3a6785e56200d8a0c90a3",
+        "url": "https://api.github.com/repos/rails/rails/commits/ed617a324adb075db7b3a6785e56200d8a0c90a3",
+        "html_url": "https://github.com/rails/rails/commit/ed617a324adb075db7b3a6785e56200d8a0c90a3"
+      },
+      {
+        "sha": "56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f",
+        "url": "https://api.github.com/repos/rails/rails/commits/56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f",
+        "html_url": "https://github.com/rails/rails/commit/56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f"
+      }
+    ]
+  },
+  {
+    "sha": "ed617a324adb075db7b3a6785e56200d8a0c90a3",
+    "commit": {
+      "author": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-05T11:44:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-05T11:44:05Z"
+      },
+      "message": "Merge pull request #28671 from y-yagi/use_appropriate_type_to_header_option\n\nUse appropriate type to `header` option",
+      "tree": {
+        "sha": "d7b619bcbea09573b0a7061d5853d587801fcdd6",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/d7b619bcbea09573b0a7061d5853d587801fcdd6"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/ed617a324adb075db7b3a6785e56200d8a0c90a3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/ed617a324adb075db7b3a6785e56200d8a0c90a3",
+    "html_url": "https://github.com/rails/rails/commit/ed617a324adb075db7b3a6785e56200d8a0c90a3",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/ed617a324adb075db7b3a6785e56200d8a0c90a3/comments",
+    "author": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c866cf9df8b7d767f8be8272b120b44f453212cb",
+        "url": "https://api.github.com/repos/rails/rails/commits/c866cf9df8b7d767f8be8272b120b44f453212cb",
+        "html_url": "https://github.com/rails/rails/commit/c866cf9df8b7d767f8be8272b120b44f453212cb"
+      },
+      {
+        "sha": "c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f",
+        "url": "https://api.github.com/repos/rails/rails/commits/c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f",
+        "html_url": "https://github.com/rails/rails/commit/c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f"
+      }
+    ]
+  },
+  {
+    "sha": "56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f",
+    "commit": {
+      "author": {
+        "name": "Koichi ITO",
+        "email": "koic.ito@gmail.com",
+        "date": "2017-04-05T10:14:56Z"
+      },
+      "committer": {
+        "name": "Koichi ITO",
+        "email": "koic.ito@gmail.com",
+        "date": "2017-04-05T10:20:48Z"
+      },
+      "message": "Ignore AR tests of index comment when using Oracle",
+      "tree": {
+        "sha": "68c8bd653a25b8f2450c69a9b71444cc4110f0b6",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/68c8bd653a25b8f2450c69a9b71444cc4110f0b6"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f",
+    "html_url": "https://github.com/rails/rails/commit/56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/56e2c9e1f09d80ec56e8dd9c5418a7f1d4e37c1f/comments",
+    "author": {
+      "login": "koic",
+      "id": 13203,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13203?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/koic",
+      "html_url": "https://github.com/koic",
+      "followers_url": "https://api.github.com/users/koic/followers",
+      "following_url": "https://api.github.com/users/koic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/koic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/koic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/koic/subscriptions",
+      "organizations_url": "https://api.github.com/users/koic/orgs",
+      "repos_url": "https://api.github.com/users/koic/repos",
+      "events_url": "https://api.github.com/users/koic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/koic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "koic",
+      "id": 13203,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13203?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/koic",
+      "html_url": "https://github.com/koic",
+      "followers_url": "https://api.github.com/users/koic/followers",
+      "following_url": "https://api.github.com/users/koic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/koic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/koic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/koic/subscriptions",
+      "organizations_url": "https://api.github.com/users/koic/orgs",
+      "repos_url": "https://api.github.com/users/koic/repos",
+      "events_url": "https://api.github.com/users/koic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/koic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c866cf9df8b7d767f8be8272b120b44f453212cb",
+        "url": "https://api.github.com/repos/rails/rails/commits/c866cf9df8b7d767f8be8272b120b44f453212cb",
+        "html_url": "https://github.com/rails/rails/commit/c866cf9df8b7d767f8be8272b120b44f453212cb"
+      }
+    ]
+  },
+  {
+    "sha": "c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f",
+    "commit": {
+      "author": {
+        "name": "yuuji.yaginuma",
+        "email": "yuuji.yaginuma@gmail.com",
+        "date": "2017-04-05T09:01:34Z"
+      },
+      "committer": {
+        "name": "yuuji.yaginuma",
+        "email": "yuuji.yaginuma@gmail.com",
+        "date": "2017-04-05T09:05:34Z"
+      },
+      "message": "Use appropriate type to `header` option\n\nThe `header` option checks only whether it is specified or not.\nhttps://github.com/rails/rails/blob/e8c33349bfabca28996ac74d344d69c7aaffec50/railties/lib/rails/commands/dbconsole/dbconsole_command.rb#L52",
+      "tree": {
+        "sha": "329661e4eb1a3ce68dc3781a4fab3b88f74b2640",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/329661e4eb1a3ce68dc3781a4fab3b88f74b2640"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f",
+    "html_url": "https://github.com/rails/rails/commit/c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/c4a11171da2e56a46d7c2e1ee3ba82cca9a72a5f/comments",
+    "author": {
+      "login": "y-yagi",
+      "id": 987638,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/987638?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/y-yagi",
+      "html_url": "https://github.com/y-yagi",
+      "followers_url": "https://api.github.com/users/y-yagi/followers",
+      "following_url": "https://api.github.com/users/y-yagi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/y-yagi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/y-yagi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/y-yagi/subscriptions",
+      "organizations_url": "https://api.github.com/users/y-yagi/orgs",
+      "repos_url": "https://api.github.com/users/y-yagi/repos",
+      "events_url": "https://api.github.com/users/y-yagi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/y-yagi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "y-yagi",
+      "id": 987638,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/987638?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/y-yagi",
+      "html_url": "https://github.com/y-yagi",
+      "followers_url": "https://api.github.com/users/y-yagi/followers",
+      "following_url": "https://api.github.com/users/y-yagi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/y-yagi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/y-yagi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/y-yagi/subscriptions",
+      "organizations_url": "https://api.github.com/users/y-yagi/orgs",
+      "repos_url": "https://api.github.com/users/y-yagi/repos",
+      "events_url": "https://api.github.com/users/y-yagi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/y-yagi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "19ae6597b844e11842971c4f9298d5fc7014704d",
+        "url": "https://api.github.com/repos/rails/rails/commits/19ae6597b844e11842971c4f9298d5fc7014704d",
+        "html_url": "https://github.com/rails/rails/commit/19ae6597b844e11842971c4f9298d5fc7014704d"
+      }
+    ]
+  },
+  {
+    "sha": "3820abd36d22ac133b4146c8d59c1dda847e4f91",
+    "commit": {
+      "author": {
+        "name": "Alessandro Dal Grande",
+        "email": "adgror@gmail.com",
+        "date": "2017-04-04T23:21:08Z"
+      },
+      "committer": {
+        "name": "Alessandro Dal Grande",
+        "email": "adgror@gmail.com",
+        "date": "2017-04-04T23:22:46Z"
+      },
+      "message": "Fix edge guides for Active Record callbacks",
+      "tree": {
+        "sha": "3fcff824e2162cd1555c2b4455e85fb14318e217",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/3fcff824e2162cd1555c2b4455e85fb14318e217"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/3820abd36d22ac133b4146c8d59c1dda847e4f91",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/3820abd36d22ac133b4146c8d59c1dda847e4f91",
+    "html_url": "https://github.com/rails/rails/commit/3820abd36d22ac133b4146c8d59c1dda847e4f91",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/3820abd36d22ac133b4146c8d59c1dda847e4f91/comments",
+    "author": {
+      "login": "aledalgrande",
+      "id": 87186,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/87186?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aledalgrande",
+      "html_url": "https://github.com/aledalgrande",
+      "followers_url": "https://api.github.com/users/aledalgrande/followers",
+      "following_url": "https://api.github.com/users/aledalgrande/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aledalgrande/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aledalgrande/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aledalgrande/subscriptions",
+      "organizations_url": "https://api.github.com/users/aledalgrande/orgs",
+      "repos_url": "https://api.github.com/users/aledalgrande/repos",
+      "events_url": "https://api.github.com/users/aledalgrande/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aledalgrande/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "aledalgrande",
+      "id": 87186,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/87186?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aledalgrande",
+      "html_url": "https://github.com/aledalgrande",
+      "followers_url": "https://api.github.com/users/aledalgrande/followers",
+      "following_url": "https://api.github.com/users/aledalgrande/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aledalgrande/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aledalgrande/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aledalgrande/subscriptions",
+      "organizations_url": "https://api.github.com/users/aledalgrande/orgs",
+      "repos_url": "https://api.github.com/users/aledalgrande/repos",
+      "events_url": "https://api.github.com/users/aledalgrande/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aledalgrande/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c866cf9df8b7d767f8be8272b120b44f453212cb",
+        "url": "https://api.github.com/repos/rails/rails/commits/c866cf9df8b7d767f8be8272b120b44f453212cb",
+        "html_url": "https://github.com/rails/rails/commit/c866cf9df8b7d767f8be8272b120b44f453212cb"
+      }
+    ]
+  },
+  {
+    "sha": "c866cf9df8b7d767f8be8272b120b44f453212cb",
+    "commit": {
+      "author": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-04T20:55:25Z"
+      },
+      "committer": {
+        "name": "Matthew Draper",
+        "email": "matthew@trebex.net",
+        "date": "2017-04-04T20:57:52Z"
+      },
+      "message": "Avoid \"can't modify frozen IOError\" failures\n\nhttps://bugs.ruby-lang.org/issues/13239",
+      "tree": {
+        "sha": "9f5f7eda7317601a4c2f1a7c4fec5e0fb769e847",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/9f5f7eda7317601a4c2f1a7c4fec5e0fb769e847"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/c866cf9df8b7d767f8be8272b120b44f453212cb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/c866cf9df8b7d767f8be8272b120b44f453212cb",
+    "html_url": "https://github.com/rails/rails/commit/c866cf9df8b7d767f8be8272b120b44f453212cb",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/c866cf9df8b7d767f8be8272b120b44f453212cb/comments",
+    "author": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matthewd",
+      "id": 1034,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1034?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthewd",
+      "html_url": "https://github.com/matthewd",
+      "followers_url": "https://api.github.com/users/matthewd/followers",
+      "following_url": "https://api.github.com/users/matthewd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthewd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthewd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthewd/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthewd/orgs",
+      "repos_url": "https://api.github.com/users/matthewd/repos",
+      "events_url": "https://api.github.com/users/matthewd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthewd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263",
+        "url": "https://api.github.com/repos/rails/rails/commits/a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263",
+        "html_url": "https://github.com/rails/rails/commit/a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263"
+      }
+    ]
+  },
+  {
+    "sha": "a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263",
+    "commit": {
+      "author": {
+        "name": "Claudio B",
+        "email": "claudiob@users.noreply.github.com",
+        "date": "2017-04-04T19:29:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-04-04T19:29:05Z"
+      },
+      "message": "Merge pull request #28665 from claudiob/don-t-highlight-code-in-links\n\nDon't highlight code in anchorlink [ci skip]",
+      "tree": {
+        "sha": "4971d74e66558442dc50781366c40ccedbb27180",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/4971d74e66558442dc50781366c40ccedbb27180"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263",
+    "html_url": "https://github.com/rails/rails/commit/a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/a1c36ba32b2d6ee8a23c03eaf7778bbe61f40263/comments",
+    "author": {
+      "login": "claudiob",
+      "id": 10076,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10076?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claudiob",
+      "html_url": "https://github.com/claudiob",
+      "followers_url": "https://api.github.com/users/claudiob/followers",
+      "following_url": "https://api.github.com/users/claudiob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claudiob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claudiob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claudiob/subscriptions",
+      "organizations_url": "https://api.github.com/users/claudiob/orgs",
+      "repos_url": "https://api.github.com/users/claudiob/repos",
+      "events_url": "https://api.github.com/users/claudiob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claudiob/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19864447?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7c1a0f234ef7191a79886ee71422abebace12d1d",
+        "url": "https://api.github.com/repos/rails/rails/commits/7c1a0f234ef7191a79886ee71422abebace12d1d",
+        "html_url": "https://github.com/rails/rails/commit/7c1a0f234ef7191a79886ee71422abebace12d1d"
+      },
+      {
+        "sha": "0a61a321c7135d1eb04e7ef8caab07a1ef486ff7",
+        "url": "https://api.github.com/repos/rails/rails/commits/0a61a321c7135d1eb04e7ef8caab07a1ef486ff7",
+        "html_url": "https://github.com/rails/rails/commit/0a61a321c7135d1eb04e7ef8caab07a1ef486ff7"
+      }
+    ]
+  },
+  {
+    "sha": "0a61a321c7135d1eb04e7ef8caab07a1ef486ff7",
+    "commit": {
+      "author": {
+        "name": "claudiob",
+        "email": "claudiob@inventati.org",
+        "date": "2017-04-04T19:09:17Z"
+      },
+      "committer": {
+        "name": "claudiob",
+        "email": "claudiob@inventati.org",
+        "date": "2017-04-04T19:09:17Z"
+      },
+      "message": "Don't highlight code in anchorlink [ci skip]\n\nMinor fix to #28662",
+      "tree": {
+        "sha": "4971d74e66558442dc50781366c40ccedbb27180",
+        "url": "https://api.github.com/repos/rails/rails/git/trees/4971d74e66558442dc50781366c40ccedbb27180"
+      },
+      "url": "https://api.github.com/repos/rails/rails/git/commits/0a61a321c7135d1eb04e7ef8caab07a1ef486ff7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rails/rails/commits/0a61a321c7135d1eb04e7ef8caab07a1ef486ff7",
+    "html_url": "https://github.com/rails/rails/commit/0a61a321c7135d1eb04e7ef8caab07a1ef486ff7",
+    "comments_url": "https://api.github.com/repos/rails/rails/commits/0a61a321c7135d1eb04e7ef8caab07a1ef486ff7/comments",
+    "author": {
+      "login": "claudiob",
+      "id": 10076,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10076?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claudiob",
+      "html_url": "https://github.com/claudiob",
+      "followers_url": "https://api.github.com/users/claudiob/followers",
+      "following_url": "https://api.github.com/users/claudiob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claudiob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claudiob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claudiob/subscriptions",
+      "organizations_url": "https://api.github.com/users/claudiob/orgs",
+      "repos_url": "https://api.github.com/users/claudiob/repos",
+      "events_url": "https://api.github.com/users/claudiob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claudiob/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "claudiob",
+      "id": 10076,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10076?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claudiob",
+      "html_url": "https://github.com/claudiob",
+      "followers_url": "https://api.github.com/users/claudiob/followers",
+      "following_url": "https://api.github.com/users/claudiob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claudiob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claudiob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claudiob/subscriptions",
+      "organizations_url": "https://api.github.com/users/claudiob/orgs",
+      "repos_url": "https://api.github.com/users/claudiob/repos",
+      "events_url": "https://api.github.com/users/claudiob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claudiob/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7c1a0f234ef7191a79886ee71422abebace12d1d",
+        "url": "https://api.github.com/repos/rails/rails/commits/7c1a0f234ef7191a79886ee71422abebace12d1d",
+        "html_url": "https://github.com/rails/rails/commit/7c1a0f234ef7191a79886ee71422abebace12d1d"
+      }
+    ]
+  }
+]
