@@ -1,4 +1,9 @@
 $('document').ready(() => {
   const url = 'https://stefanbohacek.com/hellosalut/?';
-  $('INPUT#btn_translate').click(() => $.get(url + $.param({ lang: $('INPUT#language_code').val() }), data => $('DIV#hello').html(data.hello)));
+  const hello = event => $.get(url + $.param({ lang: $('INPUT#language_code').val() }), data => $('DIV#hello').text(data.hello));
+  $('INPUT#btn_translate').on('click', hello);
+  $('INPUT#language_code').on('keypress', event => {
+    const k = event.KeyCode ? event.KeyCode : event.which;
+    if (k === 13) hello(event);
+  });
 });
